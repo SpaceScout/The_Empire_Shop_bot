@@ -9,8 +9,8 @@ class process:
 
 
     def check_qiwi():
-        QIWI_TOKEN = '33a620d083281a4a3641f7845563bc5b'
-        QIWI_ACCOUNT = '+79109024495'
+        QIWI_TOKEN = 'xxx'
+        QIWI_ACCOUNT = 'xxx'
         s = requests.Session()
         s.headers['authorization'] = 'Bearer ' + QIWI_TOKEN
         parameters = {'tie_fig': '500',
